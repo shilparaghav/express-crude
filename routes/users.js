@@ -24,8 +24,12 @@ router.post('/update/:id', [
   userCtrl.update
 ]);
 
-router.delete('/delete/:id', [
+router.delete('/harddelete/:id', [
   userCtrl.hardDelete
+]);
+
+router.delete("/softdelete/:1d",[
+  userCtrl.softDelete
 ]);
 
 module.exports = router;

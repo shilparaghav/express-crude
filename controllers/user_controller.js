@@ -195,5 +195,6 @@ module.exports = {
     update: update,
     fetchAll: fetchAll,
     fetchById: fetchById,
-    hardDelete: hard_delete
+    hardDelete: hard_delete,
+    softDelete: soft_delete
 };
